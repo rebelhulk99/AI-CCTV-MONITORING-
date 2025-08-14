@@ -1,0 +1,12 @@
+numpy
+opencv-python
+tensorflow>=2.0
+torch
+torchvision
+Pillow
+scipy
+matplotlib
+absl-py
+flask        # if you have a web dashboard component
+pymongo     # if using MongoDB as database
+python-dotenv  # for managing environment variables securely
