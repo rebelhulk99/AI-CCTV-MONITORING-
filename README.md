@@ -24,13 +24,13 @@ An intelligent AI-powered CCTV monitoring system designed to enhance security by
 ## 📦 Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/ai-cctv-monitoring.git
+git clone https://github.com/rebelhulk@99/ai-cctv-monitoring.git
 
-text
+
 2. Navigate to the project directory:
 cd ai-cctv-monitoring
 
-text
+
 3. Install dependencies:
 pip install -r requirements.txt
 
@@ -72,5 +72,6 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## 👤 Author
 - **Raj Jadhav** – [@rebelhulk@99](https://github.com/rebelhulk99)
+
 
 
