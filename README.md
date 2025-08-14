@@ -71,5 +71,6 @@ Contributions are welcome!
 Distributed under the MIT License. See `LICENSE` for details.
 
 ## 👤 Author
-- **Your Name** – [@yourusername](https://github.com/yourusername)
+- **Raj Jadhav** – [@rebelhulk@99](https://github.com/rebelhulk99)
+
 
