@@ -6,8 +6,8 @@ from telebot import types
 model = YOLO('yolov8n.pt')  # 'n' is nano version
 
 # Telegram Bot Setup
-TOKEN = '8135316387:AAFhkOAt20mc1jBbPS_C2W1sa8EqQAolzPU'
-CHAT_ID = '7797455582'
+TOKEN = #your-token
+CHAT_ID = #chat-id
 bot = telebot.TeleBot(TOKEN)
 
 def send_telegram_alert(image_path):
@@ -16,8 +16,7 @@ def send_telegram_alert(image_path):
 
 # Initialize video capture
 # For CCTV RTSP stream: replace with your RTSP URL
-cap = cv2.VideoCapture("rtsp://admin:admin%40123@192.168.0.103:554/cam/realmonitor?channel=2&subtype=0", cv2.CAP_FFMPEG)
-
+cap = cv2.VideoCapture("rtsp://username:password@IP4/cam/realmonitor?channel=2&subtype=0", cv2.CAP_FFMPEG)
 #cap = cv2.VideoCapture(0)  # For webcam
 
 while True:
@@ -59,5 +58,6 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
